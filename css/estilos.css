@@ -9,6 +9,20 @@ body{
 	font-size: 16px;
 	font-family: 'Dancing Script';
   font-size: 14pt;
+	animation-duration: 1s;
+	animation-name: slidein;
+}
+
+@keyframes slidein {
+	0%{
+		margin-top: 100%;
+	}
+	60%{
+		margin-top: -5%;
+	}
+	100%{
+		margin-top: 0%;
+	}
 }
 
 #contenedor{
