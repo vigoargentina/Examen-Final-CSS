@@ -111,26 +111,35 @@ img{
 .img1{
   -webkit-filter:blur(10px);
   filter: blur(10px);
+  box-shadow: 5px 5px 5px black;
 }
 
 .img2{
   -webkit-filter:grayscale(100%);
   filter: grayscale(100%);
+  box-shadow: 5px 5px 5px black;
 }
 
 .img3{
   -webkit-filter:sepia(90%);
   filter: sepia(90%);
+  box-shadow: 5px 5px 5px black;
 }
 
 .img4{
   -webkit-filter:grayscale(100%);
   filter: grayscale(100%);
+  box-shadow: 5px 5px 5px black;
+}
+
+.img5{
+  box-shadow: 5px 5px 5px black;
 }
 
 .img6{
   -webkit-filter:grayscale(100%);
   filter: grayscale(100%);
+  box-shadow: 5px 5px 5px black;
 }
 
 footer{
