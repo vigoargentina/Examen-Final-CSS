@@ -86,25 +86,26 @@ img{
 }
 
 }
-.paisaje{
+.imagenpaisaje{
   border: 2px solid black;
+  box-shadow: 5px 5px 5px black;
   -webkit-filter:drop-shadow(3px 3px 6px #82c3a6);
   filter: drop-shadow(3px 3px 6px #82c3a6);
   transition: transform 2s;
 }
 
-.paisaje:hover{
+.imagenpaisaje:hover{
   transform: rotate(10deg);
 }
 
-.retrato{
+.imagenretrato{
   border: 2px solid black;
   -webkit-filter:drop-shadow(3px 3px 6px #82c3a6);
   filter: drop-shadow(3px 3px 6px #82c3a6);
   transition: transform 2s;
 }
 
-.retrato:hover{
+.imagenretrato:hover{
   transform: translate(20px, -5px);
 }
 
@@ -143,7 +144,6 @@ img{
 }
 
 footer{
-
   display: flex;
   display: -webkit-flex;
   flex-flow: row wrap;
@@ -152,18 +152,33 @@ footer{
   padding: 15px 0;
   color: black;
   border-radius: 0 0 10px 10px;
-
 }
 footer .columna{
-
   width: 25%;
   box-sizing: border-box;
   padding: 0 15px;
-
 }
 
 .iconored{
-
   width: 15px;
+}
 
+@media screen and (max-width: 1000px){
+	#contenedor{
+		width: 100%;
+		margin: 0 auto;
+	}
+  #menuheader, #tituloheader{
+    width: 100%;
+    text-align: center;
+  }
+  .imagensecundaria{
+    width: 100%;
+  }
+  .paginaecundaria{
+    width: 100%;
+  }
+  footer .columna{
+    width: 100%;
+  }
 }
