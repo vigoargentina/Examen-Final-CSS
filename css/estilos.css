@@ -177,7 +177,7 @@ footer .columna{
   width: 15px;
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 900px){
 	#contenedor{
 		width: 100%;
 		margin: 0 auto;
@@ -189,7 +189,7 @@ footer .columna{
   .imagensecundaria{
     width: 100%;
   }
-  .paginaecundaria{
+  .paginasecundaria{
     width: 100%;
   }
   footer .columna{
